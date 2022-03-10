@@ -1,0 +1,289 @@
+#tit
+{
+    background-color: purple;
+    color: white;   /*   font color  */
+}
+body
+{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    
+
+
+}
+.nav-link
+{
+    font-size: 1.5rem;
+    
+
+}
+.navbar-brand
+{
+    font-family:'Ubuntu';
+   font-size: 2.3rem;
+  font-weight: bold;
+
+}
+.nav-item{
+    padding: 0% 15px;
+}
+
+ 
+h1{
+    
+font-family: 'Lilita One', cursive;
+font-size: 4rem;
+line-height: 1;
+}
+.button-space
+{
+    margin: 5% 3% 5% 0%;
+
+}
+.container-fluid{
+    padding:3% 12% 7%;
+}
+.image-size
+{
+    
+    width: 20%;
+    transform: rotate(20deg);
+    margin-left: 15%;
+    margin-top: 1rem;
+    position: absolute;
+    z-index: 0;
+   
+}
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+/* title ke niche wala section .......  features and all*/
+
+.feaa{
+    padding: 8% 10%;
+}
+.fa-circle-check:hover{
+    color: purple;
+}
+
+.fa-circle-check{
+    font-size: 5rem;
+    color:#E04DB0;
+    margin-left: 8.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.fa-bullseye:hover{
+    color: purple;
+}
+.fa-bullseye{
+    font-size: 5rem;
+    color:#E04DB0;
+    margin-left: 8.2rem;
+    margin-bottom: 1rem;
+
+
+}
+.fa-heart:hover{
+    color: purple;
+}
+.fa-heart
+{
+    font-size: 5rem;
+    color:#E04DB0;
+    margin-left: 8.2rem;
+    margin-bottom: 1rem;
+}
+.fh3
+{
+    font-family: 'Lilita One', cursive;
+   
+text-align: center;
+}
+.feapara
+{
+    font-family:'Ubuntu';
+   font-size: 1.2rem;
+  text-align: center;
+
+}
+
+
+/* testimonials*/
+h2
+{
+    font-family: 'Lilita One', cursive;
+font-size: 2.5rem;
+line-height: 1;
+color: white;
+
+}
+.img-dog{
+    width: 20%;
+    border-radius: 100%;
+    margin-top: 3rem;
+    
+}
+em
+{
+    margin-left: 2rem;
+    font-family: 'Lilita One', cursive;
+    font-size: 1rem;
+   font-style: bold;
+    color: white;
+    
+   
+
+}
+#testimonials
+{
+
+    text-align: center;
+    background-color: purple;
+    padding: 5% ;
+}
+
+
+#press{
+    text-align: center;
+    background-color: purple;
+   padding-bottom: 8%;
+
+}
+.logisize
+
+{
+    width:14rem;
+    padding:3rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    
+
+}
+
+#carouselExampleControlsNoTouching{
+    padding: 5% 20%;
+}
+.paddd{
+    padding: 3% 10%;
+}
+
+.tti
+{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 4rem;
+    
+}
+.tii
+{
+     text-align: center;
+     font-size: 1.5rem;
+     font-weight:400
+
+}
+
+.card-title
+{
+    font-family:'Ubuntu';
+   font-size: 27px;
+  font-weight: 900;
+  text-align: center;
+
+}
+.price
+{
+    color: black;
+    text-align: center;
+    font-weight: 200px;
+}
+.btn:hover{
+    background-color:purple;
+}
+
+/* media to make it esponsive*/
+@media (max-width: 1028px)
+{
+    #tit{
+        text-align: center;
+
+    }
+
+    .image-size
+    {
+        transform: rotate(0);
+        position: static;
+        width: 50%;
+
+    }
+    .fa-circle-check
+    {
+        margin-left: 10rem;
+        
+
+    }
+    .fa-bullseye{
+        margin-left: 10rem;
+        
+    }
+    .fa-heart{
+        margin-left: 10rem;
+    }
+.feapara
+  
+    {
+        margin-bottom: 3rem;
+    }
+ 
+    .img-dog
+    {
+        width: 8rem;
+
+    }
+
+}
+
+.ctatext{
+    font-family: 'Lilita One', cursive;
+    font-size: 2.4rem;
+    margin-bottom: 0rem;
+}
+#cta
+{
+    background-color: purple;
+    text-align: center;
+    font-family:'Ubuntu';
+    font-size: 1.2rem;
+  
+    color: white;
+
+  padding: 2rem;
+  padding-bottom: 0rem;
+}
+
+#footer
+{
+    text-align: center;
+    font-family:'Ubuntu';
+    font-size: 1.2rem;
+    padding: 1rem;
+
+
+}
+.ig
+{
+    padding: 1.5rem;
+    margin-top: 2rem;
+
+}
